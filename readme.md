@@ -3,6 +3,23 @@ turksfeat
 
 Resources for [*Simple Speech Representation Learning from Perceptual Data*](https://github.com/Sleepwalking/prometheus-spark/blob/master/writings/simple-speech-representation-perceptual-data-hua-2019.pdf).
 
+This database contains 3200 pairs (2700 for training and 500 for testing) of phonemes whose perceived similarity is rated by workers on Amazon Mechnical Turk. Each pair is rated by 5 workers on a 1-to-5 discrete opinion scale.
+
+There is also a smaller database (screening set) with only 61 token pairs but each rated by 25 workers.
+
+| Rating | Category | Description |
+| --- | --- | --- |
+| 5 | Identical | they sound the same |
+| 4 | Very Similar | almost the same but distinguishable |
+| 3 | Fair | similar but not the same |
+| 2 | Poor | not so similar but related |
+| 1 | Bad | completely different sounds |
+
+Get VCTK
+---
+
+To use this database, you first need a copy of the [VCTK speech corpus](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html). Note that different license terms apply.
+
 
 Data Format
 ---
@@ -38,5 +55,6 @@ Data Format
 License
 ---
 
-
 This database ("*turksfeat*") is made available under the Open Database License: [http://opendatacommons.org/licenses/odbl/1.0/](http://opendatacommons.org/licenses/odbl/1.0/). Any rights in individual contents of the database are licensed under the Database Contents License: [http://opendatacommons.org/licenses/dbcl/1.0/](http://opendatacommons.org/licenses/dbcl/1.0/).
+
+In short: attribution and share-alike.
