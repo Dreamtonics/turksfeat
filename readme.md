@@ -3,7 +3,7 @@ turksfeat
 
 Resources for [*Simple Speech Representation Learning from Perceptual Data*](https://github.com/Sleepwalking/prometheus-spark/blob/master/writings/simple-speech-representation-perceptual-data-hua-2019.pdf).
 
-This database contains 3200 pairs (2700 for training and 500 for testing) of phonemes whose perceived similarity is rated by workers on Amazon Mechnical Turk. Each pair is rated by 5 workers on a 1-to-5 discrete opinion scale.
+This database contains 3200 pairs (2700 for training and 500 for testing) of phonemes whose perceived similarity is rated by workers at Amazon Mechanical Turk. Each pair is rated by 5 workers on a 1-to-5 discrete opinion scale.
 
 There is also a smaller database (screening set) with only 61 token pairs but each rated by 25 workers.
 
